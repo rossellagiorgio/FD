@@ -20,6 +20,8 @@ Predicting whether a transaction is fraudulent at the time of authorization, usi
   (Jan–Sep), using the hyperparameters and tree count found during tuning,
   to build the final production model.
 - Evaluated the production model, at the end, on the test set (`transactions_test.csv`, Oct–Dec).
+- SHAP-based interpretability
+- Drift comparison (pre vs post month 6)
 
 ## Project structure
 
